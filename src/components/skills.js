@@ -7,9 +7,9 @@ const Skills = ({ data }) => (
     <h1 className="section-header">Skills</h1>
     {data.map(skill => (
       <div key={skill.title} className="my-5">
-        <h1 className="item-header font-semibold text-lg mb-2">
+        <h2 className="item-header font-semibold text-lg mb-2">
           {skill.title}
-        </h1>
+        </h2>
         {skill.subskills.map(subskill => (
           <span key={subskill.name}>
             {skill.type === 'tag' && (
