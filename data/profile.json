@@ -11,44 +11,33 @@
       "type": "percent",
       "subskills": [
         {
-          "name": "Artificial Intelligence",
-          "percent": 80
+          "name": "Artificial Intelligence"
+        {
+          "name": "Android Development"
         },
         {
-          "name": "Android Development",
-          "percent": 80
+          "name": "Database Systems"
         },
         {
-          "name": "Database Systems",
-          "percent": 85
+          "name": "Data Science"
         },
         {
-          "name": "Data Science",
-          "percent": 92
+          "name": "OOAD"
         },
         {
-          "name": "OOAD",
-          "percent": 90
+          "name": "Data Structures"
         },
         {
-          "name": "Data Structures",
-          "percent": 90
+          "name": "Computer Networks"
         },
         {
-          "name": "Computer Networks",
-          "percent": 80
+          "name": "UI/UX"
         },
         {
-          "name": "UI/UX",
-          "percent": 85
+          "name": "Problem Solving"
         },
         {
-          "name": "Problem Solving",
-          "percent": 85
-        },
-        {
-          "name": "Communication Skills",
-          "percent": 85
+          "name": "Communication Skills"
         }
       ]
     },
@@ -57,16 +46,13 @@
       "type": "percent",
       "subskills": [
         {
-          "name": "Java",
-          "percent": 95
+          "name": "Java"
         },
         {
-          "name": "C/C++",
-          "percent": 95
+          "name": "C/C++"
         },
         {
-          "name": "Python",
-          "percent": 90
+          "name": "Python"
         }
       ]
     },
