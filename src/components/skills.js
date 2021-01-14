@@ -12,8 +12,10 @@ const Skills = ({ data }) => (
         </h1>
         {skill.subskills.map(subskill => (
           <span key={subskill.name}>
-            {skill.type === 'percent' && (
-              <Progress name={subskill.name} percent={subskill.percent} />
+            {skill.type === 'tag' && (
+              <span key={subskill.name} className="tag">
+                {subskill.name}
+              </span>
             )}
             {skill.type === 'tag' && (
               <span key={subskill.name} className="tag">
