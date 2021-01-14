@@ -25,7 +25,7 @@
 }
 
 .section-header {
-    @apply text-primary text-x2 border-l-4 border-primary-500 pl-3 font-bold;
+    @apply text-primary text-2x1 border-l-4 border-primary-500 pl-3 font-bold;
 }
 
 .item-header {
