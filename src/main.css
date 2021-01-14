@@ -13,7 +13,7 @@
 }
 
 .contact-icon {
-    @apply text-blue-700 fill-current w-4 h-4 mr-4 text-secondary-500;
+    @apply fill--blue-700 w-4 h-4 mr-4 text-secondary-500;
 }
 
 .contact-link {
