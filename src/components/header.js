@@ -4,7 +4,7 @@ import Contact from './contact';
 const Header = ({ name, role, contacts }) => (
   <header className="border-b border-neutral-300 pb-2 md:flex items-center justify-between">
     <div>
-      <h1 className="text-blue text-4xl md:text-5xl font-bold tracking-wide leading-tight">
+      <h1 className="text-primary-500 text-4xl md:text-5xl font-bold tracking-wide leading-tight">
         {name}
       </h1>
       <h2 className="font-bold text-lg md:text-2xl text-black leading-relaxed tracking-widest">
