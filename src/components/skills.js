@@ -17,11 +17,6 @@ const Skills = ({ data }) => (
                 {subskill.name}
               </span>
             )}
-            {skill.type === 'tag' && (
-              <span key={subskill.name} className="tag">
-                {subskill.name}
-              </span>
-            )}
             {skill.type === 'list' && (
               <ListItem key={subskill.name} text={subskill.name} />
             )}
