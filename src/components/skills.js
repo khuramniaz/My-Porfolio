@@ -6,7 +6,7 @@ const Skills = ({ data }) => (
   <section>
     <h1 className="section-header">Skills</h1>
     {data.map(skill => (
-      <div key={skill.title} className="my-5">
+      <div key={skill.title} className="my-5" text-4x1>
         <h2 className="item-header font-semibold text-lg mb-2">
           {skill.title}
         </h2>
