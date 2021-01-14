@@ -8,7 +8,7 @@
   "skills": [
     {
       "title": "General",
-      "type": "percent",
+      "type": "tag",
       "subskills": [
         {
           "name": "Artificial Intelligence"
@@ -44,7 +44,7 @@
     },
     {
       "title": "Languages",
-      "type": "percent",
+      "type": "tag",
       "subskills": [
         {
           "name": "Java"
