@@ -4,10 +4,10 @@ import Contact from './contact';
 const Header = ({ name, role, contacts }) => (
   <header className="border-b border-neutral-300 pb-2 md:flex items-center justify-between">
     <div>
-      <h1 className="text-primary-700 text-4xl md:text-5xl font-bold tracking-wide leading-tight">
+      <h1 className="text-blue-700 --tw-text-opacity: 1 text-4xl md:text-5xl font-bold tracking-wide leading-tight">
         {name}
       </h1>
-      <h2 className="font-light text-lg md:text-2xl text-primary-900 leading-relaxed tracking-widest">
+      <h2 className="font-bold text-lg md:text-2xl text-primary-900 leading-relaxed tracking-widest">
         {role}
       </h2>
     </div>
