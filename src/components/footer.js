@@ -9,19 +9,16 @@ const Footer = ({ social }) => (
         © {new Date().getFullYear()} | Developed with
       </span>
       <span className="inline-block mr-1">
-        <HeartIcon
-          className="h-3 w-3 fill-current"
-          style={{ color: '#de3618' }}
-        />
+        
       </span>
       <span className="inline-block mr-1">by</span>
       <a
         className="text-primary-500 hover:text-primary-700 font-bold"
-        href="https://barancezayirli.com"
+        href="https://github.com/KhuramNiaz"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Baran Cezayirli
+        Khuram Niaz
       </a>
     </div>
     {social && (
