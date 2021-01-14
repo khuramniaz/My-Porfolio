@@ -13,7 +13,7 @@
 }
 
 .contact-icon {
-    @apply fill-primary w-4 h-4 mr-4 text-primary;
+    @apply text-text-blue-700 fill-current w-4 h-4 mr-4;
 }
 
 .contact-link {
@@ -25,7 +25,7 @@
 }
 
 .section-header {
-    @apply text-primary text-2x1 border-l-4 border-primary-500 pl-3 font-bold;
+    @apply text-text-blue-700 text-3x1 border-l-4 border-primary-500 pl-3 font-bold;
 }
 
 .item-header {
