@@ -2,7 +2,6 @@
   "contact": {
     "phone": "+92 333 6913154",
     "email": "kbhatti99@gmail.com",
-    "website": "https://khuramniaz.tech",
     "location": "Lahore, Pakistan"
   },
   "skills": [
@@ -33,6 +32,9 @@
         },
         {
           "name": "UI/UX"
+        },
+        {
+          "name": "Backend Development"
         },
         {
           "name": "Problem Solving"
