@@ -5,8 +5,6 @@ Gatsby Starter Resume CMS is a free starter template with  Netlify CMS as headle
 
 [Demo](https://khuramniaz.tech/)
 
-[Customization and Theming](https://barancezayirli.com/free-gatsby-resume-starter-with-netlify-cms/#customization)
-
 ## Features
 
 - One-page resume/CV
@@ -42,13 +40,7 @@ The resume content is generated from `data/profile.json` file. You can manually 
 
 To use Netlify CMS  you’ll need to deploy to Netlify through GitHub, Gitlab or Bitbucket, set up continuous deployment, and do a few configuration. For Github:
 
-Open `static/admin/config.yml`. Replace `barancezayirli/gatsby-resume-tailwind` with your GitHub username and project name. This step is important for managing and deploying the Netlify CMS interface.
-
-```yaml
-backend:
-  name: github
-  repo: barancezayirli/gatsby-resume-tailwind #TODO replace this with your own repo
-```
+Open `static/admin/config.yml`.
 
 Publish your repo to Github, then, open [Netlify](app.netlify.com) and add a “New site from Git”. Choose your newly created repo and click on “Deploy site” with the default deployment settings.
 
