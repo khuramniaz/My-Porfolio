@@ -25,11 +25,6 @@ Gatsby Starter Resume CMS is a free starter template with  Netlify CMS as headle
 
 Use the Gatsby CLI to create a new site, specifying the resume starter.
 
-```shell
-# create a new Gatsby site using the blog starter
-gatsby new my-resume https://github.com/barancezayirli/gatsby-starter-resume-cms
-```
-
 ### Start developing
 
 Navigate into your new site’s directory and start it up.
@@ -42,8 +37,6 @@ gatsby develop
 ## Updating Content
 
 The resume content is generated from `data/profile.json` file. You can manually edit this file or setup Netlify CMS for online editing.
-
-You can find more information on resume widgets and theming [here](https://barancezayirli.com/free-gatsby-resume-starter-with-netlify-cms/#customization).
 
 ### Netlify CMS as Headless CMS
 
@@ -62,6 +55,3 @@ Publish your repo to Github, then, open [Netlify](app.netlify.com) and add a “
 Finally need to set up an OAuth application on GitHub. Start development build with `gatsby develop` and visit `http://localhost:8000/admin` and authorize Netlify to make commits for you.
 
 If it doesn't work, the instructions for setting up OAuth can be found here: [Netlify’s Using an Authorization Provider](https://www.netlify.com/docs/authentication-providers/#using-an-authentication-provider).
-
-I hope you enjoy the resume template, if you do please follow me on [twitter](https://twitter.com/barancezayirli) and send me your results.
-I would love to see it!
